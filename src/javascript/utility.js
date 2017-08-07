@@ -96,7 +96,7 @@ var frame = {
     webExplain : "<li><span class=\"web-key\">#{1}</span><span class=\"web-value\">#{2}</span></li>"
 };
 var youdao = function(){
-    var config = {key: 1116151381,keyfrom : "youdaocidian"};
+    var config = {key: 608162978,keyfrom : "iWord-2017"};
     var urls = {
         dict : "http://fanyi.youdao.com/openapi.do?keyfrom=" + config.keyfrom +"&key="+ config.key +"&type=data&doctype=json&version=1.1&q=",
         voice : "http://dict.youdao.com/dictvoice?audio=",
